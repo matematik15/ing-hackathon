@@ -1,0 +1,14 @@
+# Transactions
+
+In a certain large bank, thousands of transactions are carried out on accounts every day.
+These are both incoming (receipts) and outgoing (expenditure) transfers.
+
+One of the bank's departments would like to know how the balance of all accounts changes after the entire day's transactions have been processed.
+Additionally, it has a requirement that the list of accounts be sorted in ascending order.
+
+It is predicted that in the near future, there may be as many as 100,000 such transactions as its customer base is constantly growing.
+Our system must be ready for this!
+
+## Task:
+Write an algorithm that will process all transactions and return a sorted list of accounts, along with the number of credits and debits, and the final balance.
+It is assumed that the starting balance of each account is PLN 0.

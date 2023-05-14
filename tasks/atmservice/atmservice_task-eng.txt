@@ -1,0 +1,17 @@
+# ATM service
+
+The service orderResponse system contains requests that must be queued for processing.
+The queue is related to the convoy route through individual regions, and the designated route between the regions has already been approved.
+There are a lot of service requests, as in addition to the standard and priority ATM replenishment works planned for today, other requests have also appeared that need to be handled.
+One of such requests is a signal about a low cash level in an ATM, which was not planned for today.
+Such a request should be executed immediately after completing the priority planned orders in a given region.
+Another request is a signal about an ATM malfunction with which the technical team has no communication and cannot carry out the remote reboot procedure.
+Such a request should be executed first in a given region. Priority planned ATM replenishment concerns devices where the trend of cash depletion is high.
+Therefore, this operation is executed before standard orders.
+
+## Task
+Prepare a system that will prepare the appropriate orderResponse of service requests for the convoy group, assuming that:
+1)	The convoy passes through the regions taking into account the increasing orderResponse of their assigned numbers,
+2)	a given ATM on the service request list for the convoy group can appear only once.
+
+

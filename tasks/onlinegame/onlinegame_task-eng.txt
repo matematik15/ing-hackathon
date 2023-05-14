@@ -1,0 +1,28 @@
+# Online game
+
+One great online game has recently become very popular and the number of players is growing at a rapid pace.
+In addition to the standard gameplay, special events are held from time to time where you can earn the most points. Every player wants to take part in them.
+Unfortunately, the platform on which the game is running has performance problems, which is why entering the event boards is done in groups.
+In the game you can create clans, created from more players. Clan strength is defined by the sum of clan members' points.
+The order of entering the special event depends on the sum of points of clan members.
+
+Unfortunately, due to the above-mentioned performance issues, boarding is done according to the following rules:
+- players are allowed in groups with a maximum size (m)
+- players from a given group enter the board in turn, not at one time, which means that the best players will enter the server first
+- clan members must necessarily enter together in one group to use their strongest weapon, therefore they cannot be split
+- groups need to be optimized in such a way as to let in as many players as possible during one entry
+- if the whole group does not fit in a given entrance, the next group with fewer points has priority
+- if two clans have the same number of points, then the clan with fewer players has more priority (which means that the clan has stronger players)
+- all clans must get to the event
+
+## Task
+Write an algorithm that for a given number of places in a group (m) and clans along with its size (l) and total number of points (p) will determine the order and arrangement in which players should enter the board.
+The number of clans can be really long, up to 20,000.
+
+The numbers take values according to the following ranges:
+m=<1.1000>
+l=<1.1000>
+p=<1,100,000>
+
+Conditions:
+l <= m

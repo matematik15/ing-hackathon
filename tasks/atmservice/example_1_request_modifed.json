@@ -1,0 +1,17 @@
+[
+  {
+    "region": 2,
+    "requestType": "STANDARD",
+    "atmId": 1
+  },
+  {
+    "region": 2,
+    "requestType": "FAILURE_RESTART",
+    "atmId": 1
+  },
+  {
+    "region": 2,
+    "requestType": "SIGNAL_LOW",
+    "atmId": 2
+  }
+]
